@@ -6,7 +6,8 @@ Projet IAS (Introduction Apprentissage Statistiques) Université Paris-Saclay
 ## Features musicales
 
 * acousticness (Ranges from 0 to 1) 
-= Est-ce que la musique est codifiée par des règles mathématiques ?
+= Est-ce que la musique est codifiée par des règles mathématiques 
+(et peut donc s'écrire sous forme d'une partition) ?
 * danceability (Ranges from 0 to 1) 
 = Est-ce que la musique donne envie de danser ?
 * energy (Ranges from 0 to 1)
@@ -43,8 +44,6 @@ de la musique (joyeux pour majeur, triste pour mineur)
 * release_date (Date of release mostly in yyyy-mm-dd format, however precision of date may vary)
 * name (Name of the song)
 
-# Visulation des Données
-
 # Pré-Processing
 
 * Supprimer id, name, realease date 
@@ -54,9 +53,3 @@ de la musique (joyeux pour majeur, triste pour mineur)
 * Binariser speechiness et instrumentaleness
 * Modifier artist pour mesurer la popularité moyenne de chaque artiste
 * Supprimer les données dupliquées
-
-# Entraînement du Modèle
-
-# Recherche Hyperparamètres
-
-# Calcul du Score Final
